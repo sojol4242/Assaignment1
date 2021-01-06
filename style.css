@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav {
+    display: block;
+    float: right;
+    margin-top: 1rem;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav ul li a {
+    background: none;
+    color: black;
+}
+
+.container {
+    margin: 50px auto;
+    height: 100%;
+    display: inline-block;
+}
+
+.hero-title {
+    width: 50%;
+    float: left;
+    margin-top: 3rem;
+}
+
+.hero-title h1 {
+    font-size: 2.5rem;
+}
+
+.hero-title p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fd5d1d;
+    /* #833ab4
+→ 
+
+→ 
+#fcb045 */
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: 1.7;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background: linear-gradient(60deg, rgb(71, 87, 236), rgb(0, 2, 143));
+}
+
+.hero_image {
+    width: 50%;
+    float: right;
+}
+
+.hero_image img,
+.about img {
+    height: 400px;
+    width: 400px;
+    margin-left: 10rem;
+}
+
+.about-title {
+    width: 40%;
+    float: right;
+    margin-top: 6rem;
+}
+
+.about_image {
+    width: 60%;
+    float: left;
+}
+
+.about-title h1 {
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.about-title p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.cards {
+    height: 70vh;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10rem;
+}
+
+.cards .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #720c6f;
+}
+
+.cards .card {
+    width: 30%;
+    float: left;
+    height: 430px;
+    margin-left: 3%;
+    margin-top: 3%;
+    box-shadow: 10px 5px 20px rgba(82, 80, 80, 0.459);
+    border-radius: 10px;
+}
+
+.cards .card .card_description {
+    margin-left: 10px;
+    padding: 10px 10px;
+}
+
+.cards .card img {
+    width: 100%;
+}
+
+.cards .card .card_description p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#inquiry_section {
+    height: 30vh;
+    width: 80%;
+    margin: 0 10rem;
+}
+
+#inquiry_section .container {
+    background: url(/images/Group_33094_1.png);
+    width: 90%;
+    height: 90%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5% 5%;
+}
+
+.container .msg {
+    width: 50%;
+    float: left;
+}
+
+.container .msg h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.container .chat_btn {
+    width: 30%;
+    float: right;
+}
+
+.container .chat_btn {
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.container .chat_btn a {
+    background: linear-gradient(60deg, rgb(60, 80, 168), rgb(26, 29, 192));
+    border: 1px solid #fff;
+}
+
+.contact_head {
+    margin: 50px;
+    text-align: center;
+}
+
+.contact_head h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+}
+
+.contact_head h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(214, 57, 0);
+}
+
+.contact_img {
+    width: 100%;
+    text-align: center;
+}
+
+.contact_img img {
+    height: 50px;
+    padding-left: .5rem;
+    cursor: pointer;
+}
+
+footer {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
