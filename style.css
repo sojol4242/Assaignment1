@@ -171,7 +171,8 @@ a {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 5% 5%;
+    margin-top: 6rem;
+    margin-left: 2rem;
     border-radius: 10px;
 }
 
@@ -195,6 +196,9 @@ a {
 #inquiry_section .container .chat_btn {
     margin-right: 2rem;
     margin-top: 6rem;
+}
+#contact_section {
+    margin-top: 8rem;
 }
 
 .container .chat_btn a {
